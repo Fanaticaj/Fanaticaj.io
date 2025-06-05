@@ -49,8 +49,8 @@ After some research, for us to use John The Ripper on a zip file, we're going to
 With the new file, we can pass that into John The Ripper and quickly find the password to the zip file.
 ![](https://i.imgur.com/B0yRIut.png)
 
-We're greeted with two files, a php files and a stylesheet. I'll be honest, I didn't even look at the css file. 
-But here is something interesting, from the php file, this looks like the login portal we saw earlier and the program is is checking to see if the md5 of the password submitted equals a specific hash. Let's bring our new friend back out!
+We're greeted with two files, a PHP files and a stylesheet. I'll be honest, I didn't even look at the css file. 
+But here is something interesting, from the PHP file, this looks like the login portal we saw earlier and the program is checking to see if the md5 of the password submitted equals a specific hash. Let's bring our new friend back out!
 ![](https://i.imgur.com/JtPgtuR.png)
 
 I set the formatting to md5 and a file with hash and no other arguments. This session stopped after a few minutes. I probably could have checked against another word list or something else. But I saw the opportunity to use my main rig, for cracking this.
